@@ -6,3 +6,5 @@ This image can attach to a PHP-FPM proces at:
 (`php` is the hostname provided in docker-compose.yml)
 
 Contains support for WP multisite.
+
+It expects an `nginx.conf` file in your root. You can leave this empty or use it for configuration that overrides the default.
