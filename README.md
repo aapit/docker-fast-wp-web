@@ -3,10 +3,9 @@
 
 The Docker image for the nginx server in my fast WordPress cluster.
 
-This image can attach to a PHP-FPM proces at:
-`php:9000`
-(`php` is the hostname provided in docker-compose.yml)
-
-Redirects expect you to have a WordPress structure according to [Bedrock from Roots](https://roots.io/bedrock/)
-
-It expects an `nginx.conf` file in your root. You can leave this empty or use it for configuration that overrides the default.
+## Requirements
+* An attached PHP-FPM server (f.i. Docker image) at:
+  `php:9000`
+  Where `php` is the hostname provided in `docker-compose.yml`
+* Redirects expect you to have a WordPress structure according to [Bedrock from Roots](https://roots.io/bedrock/).
+* An `nginx.conf` file in your webroot. You can leave this empty or use it for configuration that overrides the default, but it needs to be present.
