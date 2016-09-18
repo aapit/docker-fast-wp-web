@@ -1,4 +1,6 @@
 # docker-fast-wp-web
+[![](https://images.microbadger.com/badges/image/aapit/fast-wp-web.svg)](https://microbadger.com/images/aapit/fast-wp-web)
+
 The Docker image for the nginx server in my fast WordPress cluster.
 
 This image can attach to a PHP-FPM proces at:
