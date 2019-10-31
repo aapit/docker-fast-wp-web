@@ -1,4 +1,4 @@
-FROM nginx:1.13
+FROM nginx:stable-alpine
 
 ADD ./config/nginx/nginx.conf /etc/nginx/nginx.conf
 ADD ./config/nginx/conf.d /etc/nginx/conf.d
